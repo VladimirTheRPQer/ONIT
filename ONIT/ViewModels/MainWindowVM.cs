@@ -34,7 +34,7 @@ namespace ONIT.ViewModels
         private List<Student> _data;
         private Student _selectedStudent;
 
-        private string api = "http://localhost:5275/api/Students/"; 
+        private string api = "http://93.183.80.153:8080/api/Students/"; 
         public List<Student> Data
         {
             get { return _data; }
