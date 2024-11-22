@@ -26,4 +26,4 @@ jobs:
         with:
           file: WebONIT/Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/newtechlabbackend:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/webonit:latest
